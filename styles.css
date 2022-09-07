@@ -126,3 +126,28 @@ body{
 .btn:hover {
     background-color: grey;
 }
+
+input[type="number"] {
+    color: green;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 50%;
+}
+
+label {
+    padding: 15px 20px;
+    background: green;
+    color:white;
+    font-size: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.blueItem {
+    background-color: blue;
+    color: white;
+}
