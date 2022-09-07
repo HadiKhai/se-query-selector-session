@@ -1,5 +1,5 @@
 
-const flex = document.querySelector('#flexbox');
+const flex = document.querySelector('#flexbox')
 
 const boxInstantiation = (element, flexGrow=true) => {
     // the only purpose of this array is to create an array of 4 element
@@ -22,7 +22,7 @@ const appendFlexGrowForItem = (element) => {
     })
 }
 
-const appendItemToFlex = (flexElement, flexGrow) => {
+const appendItemToFlex = (flexElement, flexGrow=true) => {
     const div = document.createElement('div');
     if(flexGrow){
         appendFlexGrowForItem(div);
@@ -34,7 +34,6 @@ const appendItemToFlex = (flexElement, flexGrow) => {
 }
 
 boxInstantiation(flex);
-
 
 flex.addEventListener('click', () => {
     appendItemToFlex(flex);
@@ -55,10 +54,9 @@ resetButton.addEventListener("click", () => {
     })
 })
 
-wrapButton.addEventListener('click', () => {
+wrapButton.addEventListener('click', (event) => {
     flex.classList.toggle("wrap")
     wrapButton.textContent = flex.classList.contains('wrap') ? "Unwrap" : "Wrap"
-
     // if( flex.classList.contains('wrap')){
     //     wrapButton.textContent = "Unwrap"
     // }
