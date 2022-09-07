@@ -1,0 +1,111 @@
+p {
+    padding: 20px 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.main-container{
+    padding: 5% 10%;
+}
+
+.flex{
+    display:flex;
+    background: green;
+}
+
+.dir-column{
+    flex-direction: column;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.self-center{
+    align-self: center;
+}
+
+.h300{
+    height: 300px;
+}
+
+.ac-space-around {
+    align-content: space-around;
+}
+
+.ac-space-between {
+    align-content: space-between;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-shrink {
+    flex-shrink: 0;
+}
+
+.flex-basis {
+    flex-basis: auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background: #fff;
+}
+
+.item > p {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.basis-10{
+    flex-basis: 10%;
+}
+
+.basis-20{
+    flex-basis: 20%;
+}
+
+.basis-40{
+    flex-basis: 40%;
+}
