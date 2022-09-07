@@ -91,6 +91,7 @@ body{
     height: 50px;
     margin: 5px;
     background: #fff;
+    cursor: pointer;
 }
 
 .item > p {
@@ -108,4 +109,20 @@ body{
 
 .basis-40{
     flex-basis: 40%;
+}
+
+.btn {
+    background-color: red;
+    border:none;
+    color:white;
+    padding: 15px 30px;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
 }
